@@ -1,8 +1,3 @@
-@TODO
-- code beispiele durchgehen
-- Browser tabs vorbereiten (mit ordner in neuem profil auf firmenlaptop)
-
-
 # Grunt / Gulp Klump(ad)?
 Warum npm scripts (manchmal) voll OK sind.
 
