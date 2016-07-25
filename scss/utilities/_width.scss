@@ -1,0 +1,15 @@
+.u-width-12 {
+  width: 100% !important;
+}
+
+.u-width-4\@m {
+  @media (min-width: 30em) {
+    width: 33.3333333% !important;
+  }
+}
+
+.u-width-6\@m {
+  @media (min-width: 30em) {
+    width: 50% !important;
+  }
+}

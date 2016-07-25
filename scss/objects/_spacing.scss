@@ -1,0 +1,11 @@
+.o-spacing {
+  > :not(:first-child) {
+    margin-top: 1em;
+  }
+}
+
+.o-spacing--l {
+  > :not(:first-child) {
+    margin-top: 3em;
+  }
+}

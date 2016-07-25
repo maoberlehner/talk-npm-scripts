@@ -1,0 +1,25 @@
+.c-counter {
+  display: flex;
+  justify-content: center;
+}
+
+.c-counter__control {
+  margin-right: 1em;
+  margin-left: 1em;
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  font-size: 2em;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    color: red;
+  }
+}
+
+.c-counter__number {
+  font-weight: 700;
+  font-size: 4em;
+}

@@ -1,0 +1,55 @@
+{
+  "viewports": [
+    {
+      "name": "s",
+      "width": 480,
+      "height": 270
+    },
+    {
+      "name": "m",
+      "width": 720,
+      "height": 405
+    },
+    {
+      "name": "l",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "name": "xl",
+      "width": 1200,
+      "height": 675
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "demo",
+      "url": "http://localhost:3000",
+      "hideSelectors": [],
+      "removeSelectors": [
+        "#__bs_notify__"
+      ],
+      "selectors": [
+        ".qa-header",
+        ".qa-main",
+        ".qa-teaser",
+        ".qa-footer"
+      ],
+      "readyEvent": null,
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "../../test/styles-regression/bitmaps_reference",
+    "bitmaps_test": "../../test/styles-regression/bitmaps_test",
+    "compare_data": "../../test/styles-regression/bitmaps_test/compare.json",
+    "casper_scripts": "../../test/styles-regression/casper_scripts"
+  },
+  "engine": "phantomjs",
+  "report": ["CLI", "browser"],
+  "cliExitOnFail": false,
+  "casperFlags": [],
+  "debug": false,
+  "port": 4000
+}

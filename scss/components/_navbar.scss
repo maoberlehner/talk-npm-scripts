@@ -1,0 +1,5 @@
+.c-navbar__item {
+  &:not(:first-child) {
+    margin-left: 1.5em;
+  }
+}
