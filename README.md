@@ -1,6 +1,8 @@
 # Grunt / Gulp Klump(ad)?
 Warum npm scripts (manchmal) voll OK sind.
 
+Slides: https://docs.google.com/presentation/d/1jTEJkh8CxDxQTpNtGCMxyp893CWjduNaTyeRHZAbIsw
+
 ## Getting started
 ### Quick start
 - Install [npm](https://docs.npmjs.com/getting-started/installing-node) and [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) on your system (if not already installed).
